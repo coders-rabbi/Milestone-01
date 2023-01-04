@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 10px;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>Welcome to our learning zone</h1>
+            <label for="">Your Name
+                <input type="text" name="" id="" placeholder="Your Name">
+            </label>
+            <label for="">Your Email
+                <input type="email" name="" id="" placeholder="Your Email">
+            </label>
+            <label for="">Your Mobile
+                <input type="number" name="" id="" placeholder="Your Number">
+            </label>
+            <fieldset>
+                <h1>Select Payment Method</h1>
+                <legend>Select Payment Method</legend>
+                <label for="Bkash">
+                    <input type="radio" name="Payment" id="Bkash">
+                    Bkash
+                </label>
+                <label for="Roket">
+                    <input type="radio" name="Payment" id="Roket">
+                    Roket
+                </label>
+                <label for="Nagad">
+                    <input type="radio" name="Payment" id="Nagad">
+                    Nagad
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Option</legend>
+                <h1>Select Ones or More </h1>
+                <label for="VGA/HDMI">
+                    <input type="checkbox" name="accessories" id="VGA/HDMI">
+                    VGA/HDMI
+                </label>
+                <label for="Keyboard/Mouse">
+                    <input type="checkbox" name="accessories" id="Keyboard/Mouse">
+                    Keyboard/Mouse
+                </label>
+                <label for="Motherboard">
+                    <input type="checkbox" name="accessories" id="Motherboard">
+                    Motherboard
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Type Your Message</legend>
+                <textarea name="" id="" cols="80" rows="10" placeholder="Message"></textarea>
+            </fieldset>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
